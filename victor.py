@@ -13,7 +13,7 @@ while True:
             corrects+=1
         else:
             incorrects+=1
-    print(f'Вы дали {corrects} ({round(corrects/total_quests*100)}%) правильных ответов\
+    print(f'Вы дали {corrects} ({round(corrects/total_quests*100)}%) правильных ответов \
 и {incorrects} ({round(incorrects/total_quests*100)}%) неправильных')
     while True:
         repeat=input('Хотите повторить игру с начала (да/нет)?> ')
